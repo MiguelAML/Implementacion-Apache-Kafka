@@ -68,7 +68,7 @@ Crearemos los procesos para tener el servidor de Kafka
 - Descomentar `listeners=PLAINTEXT://:9092`
 - Ingresar `0.0.0.0` antes del `:9092`
 - Descomentar `advertised.listeners=PLAINTEXT://your.host.name:9092`
-- Ingresar la IP de tu máquina virtual en reemplazo de `your.host.name`
+- Ingresar la IP pública de tu máquina virtual en reemplazo de `your.host.name`
 - Guardar cambios con `Ctrl + O`
 - Presione enter (No presione nada antes ni después.Podría cambiar el nombre del archivo)
 - Salga con `Ctrl + X`
